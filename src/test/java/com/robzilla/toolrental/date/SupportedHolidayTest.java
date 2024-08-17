@@ -17,7 +17,7 @@ class SupportedHolidayTest {
     LABOR_DAY(LocalDate.of(2024,9,2));
     private final LocalDate date;
 
-    private TestHoliday(LocalDate date) {
+    TestHoliday(LocalDate date) {
       this.date = date;
     }
 
@@ -26,7 +26,7 @@ class SupportedHolidayTest {
     }
   }
 
-  private final static LocalDate NOT_A_HOLIDAY;
+  private static final LocalDate NOT_A_HOLIDAY;
 
   static {
     LocalDate aDay = LocalDate.of(2024,1,2);
