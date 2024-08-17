@@ -1,0 +1,10 @@
+
+chdir(/usr/share/vim)
+fchdir() to previous dir
+sourcing "$VIM/vimrc.tiny"
+finished sourcing $VIM/vimrc.tiny
+chdir(/home/rob)
+fchdir() to previous dir
+sourcing "$HOME/.vimrc"
+finished sourcing $HOME/.vimrc
+"/tmp/vimtest" [New File]

@@ -1,0 +1,43 @@
+### Creating the Spring application in GitHub
+
+Create a new github repo:
+
+    gh repo create rm0814 --private
+
+Clone the remote repo:
+
+    gh repo clone robzillaxl/rm0814
+
+Generate a Spring java application with Maven:
+
+    https://start.spring.io
+
+    Options:
+
+        Project: Maven
+        Language: Java
+        Spring Boot:  3.3.2 (stable release)
+        Packaging: Jar
+        Java: 21
+
+	com.robzilla.toolrental
+
+	Dependencies:
+
+            Spring Web (for Spring MVC REST annotations)
+            Spring Boot Actuator 
+            OAuth2 Client
+            OAuth2 Authroization Server (for test) 
+
+	Clicking "Generate" will create a file, toolrental.zip, in ~/Downloads.
+
+Unzip the Spring files into the repo.
+
+git add / commit / push
+
+
+
+
+
+
+
