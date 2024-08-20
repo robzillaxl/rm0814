@@ -20,7 +20,7 @@ public enum SupportedHoliday {
 
     private final Predicate<LocalDate> isThisDay;
 
-    private SupportedHoliday(Predicate<LocalDate> holidayCheckFunction) {
+    SupportedHoliday(Predicate<LocalDate> holidayCheckFunction) {
         isThisDay = holidayCheckFunction;
     }
 
